@@ -36,3 +36,5 @@ class CfgFunctions {
 
 3. DONE - Change the fn_initVariables to your likings.
 
+
+![Alt text](http://i.imgur.com/N9Pekye.jpg "Image")
