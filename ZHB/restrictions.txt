@@ -1,0 +1,9 @@
+restrictions
+
+Scripts.txt:
+
+7 displayAddEventHandler !"_keyDownWorking = (findDisplay 46) displayAddEventHandler [\'KeyDown\', \'_this call ZHB_fnc_handleKey\'];"
+
+7 displayRemoveEventHandler !"(findDisplay 46) displayRemoveEventHandler ['KeyDown',keyDownWorking];"
+
+7 createDialog !="createDialog \"Z_HUD_Builder\";"
