@@ -33,8 +33,9 @@ class CfgFunctions {
 	#include "ZHB\ZHB_Functions.hpp"
 };
 ```
+* If you already have a RscTittles and CfgFunctions place it in there ofcourse
 
-3. DONE - Change the fn_initVariables to your likings.
+* DONE - Change the fn_initVariables to your likings.
 
 
 ![Alt text](http://i.imgur.com/N9Pekye.jpg "Image")
