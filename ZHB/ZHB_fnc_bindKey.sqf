@@ -1,9 +1,9 @@
-while {isNil 'KeyBindsWorking'} do
+while {isNil 'ZupaKeyBindsWorking'} do
 	{
-		if(!isNil 'keyDownWorking') then {
-			(findDisplay 46) displayRemoveEventHandler ['KeyUp',keyDownWorking];
-			keyDownWorking = nil;
+		if(!isNil 'ZupaKeyUpWorking') then {
+			(findDisplay 46) displayRemoveEventHandler ['KeyUp',ZupaKeyUpWorking];
+			ZupaKeyUpWorking = nil;
 		};
-		keyDownWorking = (findDisplay 46) displayAddEventHandler ['KeyUp', '_this call ZHB_fnc_handleKey'];
+		ZupaKeyUpWorking = (findDisplay 46) displayAddEventHandler ['KeyUp', '_this call ZHB_fnc_handleKey'];
 		uiSleep 0.5;
 	};
