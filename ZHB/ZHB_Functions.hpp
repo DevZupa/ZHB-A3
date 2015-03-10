@@ -13,6 +13,7 @@ class ZHB
 		class openHudBuilder {};
 		class toggleHud {};
 		class toggleTextHud {};
+		class bindKey {};
 		class init {postInit = 1;};
 	};
 };

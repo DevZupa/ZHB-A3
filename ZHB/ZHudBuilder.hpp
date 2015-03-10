@@ -4,6 +4,11 @@
 #define GUI_GRID_H	(0.04)
 #define GUI_GRID_WAbs	(1)
 #define GUI_GRID_HAbs	(1)
+#define GUI_FONT_NORMAL			PuristaMedium
+#define GUI_FONT_BOLD			PuristaSemibold
+#define GUI_FONT_MONO			EtelkaMonospaceProBold
+#define GUI_FONT_SMALL			PuristaMedium
+#define GUI_FONT_THIN			PuristaLight
 
 class ZHUD_SLIDER
 {
