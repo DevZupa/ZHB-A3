@@ -57,7 +57,7 @@ while {true} do
 				(_display  displayCtrl _image) ctrlSetText  ( format["%1%2",Z_HUD_imageFolder,"energy.paa" ]);			
 			};
 			case 11: {
-				(_display  displayCtrl _text) ctrlSetStructuredText parseText ( format["<t size='1.5'>%1</t>", EPOCH_playerStamina,_align,_valign]);	
+				(_display  displayCtrl _text) ctrlSetStructuredText parseText ( format["<t size='1.5'>%1</t>",round (EPOCH_playerStamina * 100) / 100.0,_align,_valign]);	
 				(_display  displayCtrl _image) ctrlSetText  ( format["%1%2",Z_HUD_imageFolder,"stamina.paa" ]);			
 			};
 			case 10: {
@@ -89,7 +89,7 @@ while {true} do
 				(_display  displayCtrl _image) ctrlSetText  ( format["%1%2",Z_HUD_imageFolder,"crypto.paa" ]);			
 			};
 			case 3: {
-				(_display  displayCtrl _text) ctrlSetStructuredText parseText ( format["<t size='1.5'>%1</t>",(round  (damage player) * 100 )/ 100 ,_align,_valign]);
+				(_display  displayCtrl _text) ctrlSetStructuredText parseText ( format["<t size='1.5'>%1</t>",round((1 - (damage player)) * 100),_align,_valign]);
 				(_display  displayCtrl _image) ctrlSetText  ( format["%1%2",Z_HUD_imageFolder,"health.paa" ]);			
 			};
 			case 2: {
