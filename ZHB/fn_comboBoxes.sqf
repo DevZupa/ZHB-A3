@@ -29,7 +29,7 @@ if(Z_HUD_Hunger)then{ // 5
 }else{
 	_fillArray pushBack "Disabled";
 };
-
+ 
 if(Z_HUD_Thirst)then{ // 6
 	_fillArray pushBack "Thirst";
 }else{

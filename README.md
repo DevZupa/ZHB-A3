@@ -9,9 +9,9 @@ Edit the following exceptions to the 7 xxx , only copy the part that starts with
 Search for the tag word and place the rest behind it.
 
 ```
-7 displayAddEventHandler !"_keyDownWorking = (findDisplay 46) displayAddEventHandler [\'KeyDown\', \'_this call ZHB_fnc_handleKey\'];"
+7 displayAddEventHandler !"ZupaKeyUpWorking = (findDisplay 46) displayAddEventHandler ['KeyUp', '_this call ZHB_fnc_handleKey'];"
 
-7 displayRemoveEventHandler !"(findDisplay 46) displayRemoveEventHandler ['KeyDown',keyDownWorking];"
+7 displayRemoveEventHandler !"(findDisplay 46) displayRemoveEventHandler ['KeyUp',ZupaKeyUpWorking];"
 
 7 createDialog !="createDialog \"Z_HUD_Builder\";"
 ```
