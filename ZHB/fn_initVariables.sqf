@@ -12,7 +12,7 @@
 */
 
 Z_HUD_imageFolder = "ZHB\gui\"; 
-Z_HUD_RestartMinuts = 240; // minuts for a restart.
+Z_HUD_RestartMinuts = 240; // minutes for a restart.
 Z_TextHud = false; // is the texthud active
 Z_HudActive = true; // is the graphical hud active.
 
@@ -46,7 +46,7 @@ Z_HUD_Energy = true; // 12
 
 // Starting positions
 Z_HUD_pos = [
-0,0,0,0,0,0,0,0, // Bottom SIde
+0,0,0,0,0,0,0,0, // Bottom Side
 0,0,3,4,5,6,0,0, // Right Side
 0,0,0,0,0,0,0,0, // Top side
 0,0,0,0,0,0,0,0  // Left side
